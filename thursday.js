@@ -60,7 +60,9 @@ let music = ["Jazz", "Blues"];
 console.log(music);
 music.push("Rock-n-Roll");
 console.log(music);
-music[1] = "Classics"; //trying to put Classics in [1]
+let m = music.length;
+let middle = (m-1)/2;
+music[middle] = "Classics"; 
 console.log(music);
 music.shift();
 console.log(music);
